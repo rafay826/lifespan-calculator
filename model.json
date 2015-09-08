@@ -1,0 +1,161 @@
+{
+    "questions" :
+    [{
+        "q1": "What is your gender?",
+        "q2a": "What is your age (male)?",
+        "q2b": "What is your age (female)?",
+        "q3": "How often do you exercise?",
+        "q4": "How would you describe your diet?",
+        "q5": "How many hours of sleep do you get a night on average?",
+        "q6": "Do you smoke?",
+        "q7": "Do you have a family history with any of the following illnesses? (check all that apply)",
+        "q8": "Which of these best describes how you feel in the morning upon waking?",
+        "q9": "How would you rate your energy level on a typical day?",
+        "q10": "How would you describe your memory now compared to 10 years ago?",
+        "q11": "Over the past 10 years, how has your weight changed?",
+        "q12": "How would you describe your usual walking pace?",
+        "q13": "Over the past 10 years, do you get fatigued…",
+        "q14": "How has your eyesight changed over the past 10 years?",
+        "q15": "Over the past 5 years, have you experienced any of the following? (check all that apply)",
+        "q16": "Imagine being 90+ years old…which of the following do you anticipate you’ll be able to do? (check all that apply)"
+    }],
+    
+    "answers" :
+    [{
+        "q1" :
+        [{
+            "a": "Male",
+            "b": "Female"
+        }],
+
+        "q2" :
+        [{
+            "a": "18-30",
+            "b": "31-40",
+            "c": "41-50",
+            "d": "51-60",
+            "e": "61-70",
+            "f": "71-80",
+            "g": "80+"
+        }],
+
+        "q3" :
+        [{
+            "a": "None",
+            "b": "Rarely",
+            "c": "Occasionally",
+            "d": "Often",
+            "e": "Everyday"
+        }],
+
+        "q4" :
+        [{
+            "a": "I eat ONLY natural, unprocessed foods",
+            "b": "I eat very healthy",
+            "c": "I have an average American diet",
+            "d": "I tend to overeat or indulge in fast foods",
+            "e": "I mostly eat processed or fast foods"
+        }],
+
+        "q5" :
+        [{
+            "a": "Less than 3 hours",
+            "b": "3-6 hours",
+            "c": "6-8 hours",
+            "d": "More than 8 hours"
+        }],
+
+        "q6" :
+        [{
+            "a": "Yes, daily",
+            "b": "Yes, occasionally",
+            "c": "No, not at all"
+        }],
+
+        "q7" :
+        [{
+            "a": "Diabetes",
+            "b": "Cancer",
+            "c": "Heart disease",
+            "d": "Hypertension",
+            "e": "Alzheimer's"
+        }],
+
+        "q8" :
+        [{
+            "a": "Physically tired & sore",
+            "b": "Sluggish & mentally unfocused",
+            "c": "Agitated & irritable",
+            "d": "Full of physical & mental energy"
+        }],
+
+        "q9" :
+        [{
+            "a": "Very low",
+            "b": "Low",
+            "c": "Medium",
+            "d": "High",
+            "e": "Very high"
+        }],
+
+        "q10" :
+        [{
+            "a": "Much better",
+            "b": "About the same",
+            "c": "Somewhat worse",
+            "d": "Much worse"
+        }],
+
+        "q11" :
+        [{
+            "a": "I’ve lost a lot of weight",
+            "b": "I’ve lost some weight",
+            "c": "No change whatsoever",
+            "d": "I’ve gained some weight",
+            "e": "I’ve gained a lot of weight"
+        }],
+
+        "q12" :
+        [{
+            "a": "Slow pace",
+            "b": "Steady, average pace",
+            "c": "Brisk pace"
+        }],
+
+        "q13" :
+        [{
+            "a": "More than you used",
+            "b": "About the same as you used to",
+            "c": "Less than you used to"
+        }],
+
+        "q14" :
+        [{
+            "a": "About the same",
+            "b": "A little worse",
+            "c": "Much worse",
+            "d": "None of the above"
+        }],
+
+        "q15" :
+        [{
+            "a": "Serious illness yourself",
+            "b": "Serious illness of a close relative",
+            "c": "Death of a close relative",
+            "d": "Death of a spouse",
+            "e": "Marital separation or divorce",
+            "f": "Financial difficulties"
+        }],
+
+        "q16" :
+        [{
+            "a": "Go to the gym every day",
+            "b": "Play sports like basketball",
+            "c": "Play with your grandkids ",
+            "d": "Run a marathon",
+            "e": "Travel the world",
+            "f": "Write a novel",
+            "g": "Start a new business"
+        }]
+    }]
+}
