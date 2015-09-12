@@ -26,6 +26,27 @@ body
     position: relative;
 }
 
+.nxt-bttn
+{
+    width: 65%;
+    margin: 0 auto;
+    
+    button
+    {
+        margin-top: 5%;
+        float: right;
+        padding: 2%;
+        @include borderRadius(5px);
+        background-color: $orange;
+        border: none;
+        color: $white;
+        font-size: 18px;
+        font-family: $mainfont;
+        font-weight: 300;
+        cursor: pointer;
+    }
+}
+
 //********** HEADER **********//
 
 header
@@ -112,4 +133,68 @@ footer
         top: 35%;
         font-weight: 500;
     }
+}
+
+pre
+{
+    word-wrap: break-word;
+}
+
+#age-result
+{
+    text-align: center;
+    font-family: $mainfont;
+    font-weight: 300;
+}
+
+/* ANIMATION STYLINGS
+============================================================================= */
+#form-wrap { position:relative; min-height:100%; overflow:hidden; padding:30px; }
+
+/* basic styling for entering and leaving */
+/* left and right added to ensure full width */
+#container.ng-enter,
+#container.ng-leave      { position:absolute; left:30px; right:30px;
+    transition:0.5s all ease; -moz-transition:0.5s all ease; -webkit-transition:0.5s all ease; 
+}
+    
+/* enter animation */
+#container.ng-enter            { 
+    -webkit-animation:slideInRight 0.5s both ease;
+	-moz-animation:slideInRight 0.5s both ease;
+	animation:slideInRight 0.5s both ease; 
+}
+
+/* leave animation */
+#container.ng-leave            { 
+    -webkit-animation:slideOutLeft 0.5s both ease;
+	-moz-animation:slideOutLeft 0.5s both ease;
+	animation:slideOutLeft 0.5s both ease;   
+}
+
+/* ANIMATIONS
+============================================================================= */
+/* slide out to the left */
+@keyframes slideOutLeft {
+	to 		{ transform: translateX(-200%); }
+}
+@-moz-keyframes slideOutLeft {	
+	to 		{ -moz-transform: translateX(-200%); }
+}
+@-webkit-keyframes slideOutLeft {
+	to 		{ -webkit-transform: translateX(-200%); }
+}
+
+/* slide in from the right */
+@keyframes slideInRight {
+	from 	{ transform:translateX(200%); }
+	to 		{ transform: translateX(0); }
+}
+@-moz-keyframes slideInRight {
+	from 	{ -moz-transform:translateX(200%); }
+	to 		{ -moz-transform: translateX(0); }
+}
+@-webkit-keyframes slideInRight {
+	from 	{ -webkit-transform:translateX(200%); }
+	to 		{ -webkit-transform: translateX(0); }
 }

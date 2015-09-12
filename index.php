@@ -1,5 +1,5 @@
 <?php require_once('inc/header.php'); ?>
         
-    <section ng-view ng-controller="questionController" id="container"></section>
+    <div id="form-wrap"><section id="container" ui-view ></section></div>
 
 <?php require_once('inc/footer.php'); ?>
