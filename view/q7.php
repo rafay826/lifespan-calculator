@@ -1,7 +1,7 @@
 
 <h1 id="age-result">{{ genderAge.a == true ? $eval(lifeExpectancy.age) - 3 : ""; }}</h1>
 <h1 id="age-result">{{ genderAge.b == true ? $eval(lifeExpectancy.age) - 1 : ""; }}</h1>
-<h1 id="age-result">{{ genderAge.a && genderAge.b == true ? $eval(lifeExpectancy.age) -4 : ""; }}</h1>
+<!--<h1 id="age-result">{{ genderAge.a && genderAge.b == true ? $eval(lifeExpectancy.age) -4 : ""; }}</h1>-->
 
 <div><h2 ng-repeat="input in questions">{{input.q7}}</h2></div>
 
