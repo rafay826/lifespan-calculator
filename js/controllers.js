@@ -7,7 +7,7 @@ surveyApp.controller('questionController', ['$scope', '$http', function ( $scope
     
     $scope.valueData = {};
     $scope.lifeExpectancy = {};
-    $scope.healthRate = {};
+    $scope.health = {};
     $scope.genderAge = {};
     
     $scope.malea = 77;
