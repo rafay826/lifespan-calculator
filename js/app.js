@@ -74,6 +74,10 @@ surveyApp.config(function($stateProvider, $urlRouterProvider){
     .state('questions.q16', {
         url: '/q16',
         templateUrl: 'view/q16.php'
+    })
+    .state('questions.answer', {
+        url: '/answer',
+        templateUrl: 'view/answer.php'
     });
     
     $urlRouterProvider.otherwise('/questions/q1');

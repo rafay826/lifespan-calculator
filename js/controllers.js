@@ -26,4 +26,16 @@ surveyApp.controller('questionController', ['$scope', '$http', function ( $scope
     $scope.femalef = 89;
     $scope.femaleg = 94;
     
+    $scope.hideBttn = function () {
+        
+        jQuery(".nxt-bttn button").hide();
+        
+    };
+    
+    $scope.showBttn = function () {
+        
+        jQuery(".nxt-bttn button").show();
+        
+    };
+    
 }]);

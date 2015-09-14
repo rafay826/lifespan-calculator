@@ -7,7 +7,7 @@
     <table class="surveyTable" ng-repeat="input in answers[0].q3">
         <tbody>
             <tr>
-                <td><input ng-model="genderAge.result" name="exercise" type="radio" value="{{ $eval(lifeExpectancy.age) - 3 }}" ></td>
+                <td><input ng-click="showBttn()" ng-model="genderAge.result" name="exercise" type="radio" value="{{ $eval(lifeExpectancy.age) - 3 }}" ></td>
                 <td><label for="exercise">{{input.a}}</label></td>
             </tr>
             <tr>
@@ -33,3 +33,9 @@
 <div class="nxt-bttn">
     <button ui-sref="questions.q4">Next</button>
 </div>
+
+<script>
+    jQuery(".surveyTable tbody tr td input").click(function($scope){
+    jQuery(".nxt-bttn button").show();
+});
+</script>

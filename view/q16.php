@@ -37,4 +37,6 @@
     </table>
 </form>
 
-<h1>We predict you will live till {{ lifeExpectancy.age }}.</h1>
+<div class="nxt-bttn">
+    <button ui-sref="questions.answer">Next</button>
+</div>
