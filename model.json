@@ -8,16 +8,17 @@
         "q4": "How would you describe your diet?",
         "q5": "How many hours of sleep do you get a night on average?",
         "q6": "Do you smoke?",
-        "q7": "Do you have a family history with any of the following illnesses? (check all that apply)",
-        "q8": "Which of these best describes how you feel in the morning upon waking?",
-        "q9": "How would you rate your energy level on a typical day?",
-        "q10": "How would you describe your memory now compared to 10 years ago?",
-        "q11": "Over the past 10 years, how has your weight changed?",
-        "q12": "How would you describe your usual walking pace?",
-        "q13": "Over the past 10 years, do you get fatigued…",
-        "q14": "How has your eyesight changed over the past 10 years?",
-        "q15": "Over the past 5 years, have you experienced any of the following? (check all that apply)",
-        "q16": "Imagine being 90+ years old…which of the following do you anticipate you’ll be able to do? (check all that apply)"
+        "q7": "Do you have a family history with cancer?",
+        "q8": "Do you have a family history with diabetes?",
+        "q9": "Do you have a family history with heart disease?",
+        "q10": "Which of these best describes how you feel in the morning upon waking?",
+        "q11": "How would you rate your energy level on a typical day?",
+        "q12": "How would you describe your memory now compared to 10 years ago?",
+        "q13": "Over the past 10 years, how has your weight changed?",
+        "q14": "How would you describe your usual walking pace?",
+        "q15": "Over the past 10 years, do you get fatigued…",
+        "q16": "How has your eyesight changed over the past 10 years?",
+        "q17": "Over the past 5 years, have you experienced any of the following? (check all that apply)"
     }],
     
     "answers" :
@@ -74,14 +75,23 @@
 
         "q7" :
         [{
-            "a": "Diabetes",
-            "b": "Cancer",
-            "c": "Heart disease",
-            "d": "Hypertension",
-            "e": "Alzheimer's"
+            "a": "Yes",
+            "b": "No"
+        }],
+        
+        "q8" :
+        [{
+            "a": "Yes",
+            "b": "No"
+        }],
+        
+        "q9" :
+        [{
+            "a": "Yes",
+            "b": "No"
         }],
 
-        "q8" :
+        "q10" :
         [{
             "a": "Physically tired & sore",
             "b": "Sluggish & mentally unfocused",
@@ -89,7 +99,7 @@
             "d": "Full of physical & mental energy"
         }],
 
-        "q9" :
+        "q11" :
         [{
             "a": "Very low",
             "b": "Low",
@@ -98,7 +108,7 @@
             "e": "Very high"
         }],
 
-        "q10" :
+        "q12" :
         [{
             "a": "Much better",
             "b": "About the same",
@@ -106,7 +116,7 @@
             "d": "Much worse"
         }],
 
-        "q11" :
+        "q13" :
         [{
             "a": "I’ve lost a lot of weight",
             "b": "I’ve lost some weight",
@@ -115,21 +125,21 @@
             "e": "I’ve gained a lot of weight"
         }],
 
-        "q12" :
+        "q14" :
         [{
             "a": "Slow pace",
             "b": "Steady, average pace",
             "c": "Brisk pace"
         }],
 
-        "q13" :
+        "q15" :
         [{
             "a": "More than you used",
             "b": "About the same as you used to",
             "c": "Less than you used to"
         }],
 
-        "q14" :
+        "q16" :
         [{
             "a": "About the same",
             "b": "A little worse",
@@ -137,25 +147,14 @@
             "d": "None of the above"
         }],
 
-        "q15" :
+        "q17" :
         [{
-            "a": "Serious illness yourself",
-            "b": "Serious illness of a close relative",
-            "c": "Death of a close relative",
-            "d": "Death of a spouse",
-            "e": "Marital separation or divorce",
+            "a": "Little to none",
+            "b": "Low",
+            "c": "Moderate",
+            "d": "High",
+            "e": "Very High",
             "f": "Financial difficulties"
-        }],
-
-        "q16" :
-        [{
-            "a": "Go to the gym every day",
-            "b": "Play sports like basketball",
-            "c": "Play with your grandkids ",
-            "d": "Run a marathon",
-            "e": "Travel the world",
-            "f": "Write a novel",
-            "g": "Start a new business"
         }]
     }]
 }

@@ -1,20 +1,20 @@
 <h1 id="age-result">{{ lifeExpectancy.age }}</h1>
 
-<div><h2 ng-repeat="input in questions">{{input.q12}}</h2></div>
+<div><h2 ng-repeat="input in questions">{{input.q14}}</h2></div>
 
 <form class="surveyForm">
-    <table class="surveyTable" ng-repeat="input in answers[0].q12">
+    <table class="surveyTable" ng-repeat="input in answers[0].q14">
         <tbody>
             <tr>
-                <td><input ng-model="lifeExpectancy.age" name="{{input.a}}" type="radio" value="{{ $eval(genderAge.result) - 2 }}" ></td>
+                <td><input ng-model="health.rate" name="{{input.a}}" type="radio" value="{{ $eval(health.result) - 2 }}" ></td>
                 <td><label for="{{input.a}}">{{input.a}}</label></td>
             </tr>
             <tr>
-                <td><input ng-model="lifeExpectancy.age" name="{{input.b}}" type="radio" value="{{ $eval(genderAge.result) }}" ></td>
+                <td><input ng-model="health.rate" name="{{input.b}}" type="radio" value="{{ $eval(health.result) }}" ></td>
                 <td><label for="{{input.b}}">{{input.b}}</label></td>
             </tr>
             <tr>
-                <td><input ng-model="lifeExpectancy.age" name="{{input.c}}" type="radio" value="{{ $eval(genderAge.result) + 1 }}" ></td>
+                <td><input ng-model="health.rate" name="{{input.c}}" type="radio" value="{{ $eval(health.result) + 1 }}" ></td>
                 <td><label for="{{input.c}}">{{input.c}}</label></td>
             </tr>
         </tbody>
@@ -22,5 +22,5 @@
 </form>
 
 <div class="nxt-bttn">
-    <button ui-sref="questions.q13">Next</button>
+    <button ui-sref="questions.q15">Next</button>
 </div>

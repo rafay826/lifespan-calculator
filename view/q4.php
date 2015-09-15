@@ -1,5 +1,3 @@
-<h1 id="age-result">{{ lifeExpectancy.age }}</h1>
-
 <div><h2 ng-repeat="input in questions">{{input.q4}}</h2></div>
 
 <form class="surveyForm">

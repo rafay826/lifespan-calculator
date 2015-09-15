@@ -7,28 +7,16 @@
     <table class="surveyTable" ng-repeat="input in answers[0].q15">
         <tbody>
             <tr>
-                <td><input ng-model="genderAge.result" name="{{input.a}}" type="radio" value="{{ $eval(lifeExpectancy.age) - 2 }}" ></td>
-                <td><label for="{{input.a}}">{{input.a}}</label></td>
+                <td><input ng-model="health.result" name="exercise" type="radio" value="{{ $eval(health.rate) - 3 }}" ></td>
+                <td><label for="exercise">{{input.a}}</label></td>
             </tr>
             <tr>
-                <td><input ng-model="genderAge.result" name="{{input.b}}" type="radio" value="{{ $eval(lifeExpectancy.age) - 1 }}" ></td>
-                <td><label for="{{input.b}}">{{input.b}}</label></td>
+                <td><input ng-model="health.result" name="exercise" type="radio" value="{{ $eval(health.rate) }}" ></td>
+                <td><label for="exercise">{{input.b}}</label></td>
             </tr>
             <tr>
-                <td><input ng-model="genderAge.result" name="{{input.c}}" type="radio" value="{{ lifeExpectancy.age }}" ></td>
-                <td><label for="{{input.c}}">{{input.c}}</label></td>
-            </tr>
-            <tr>
-                <td><input ng-model="genderAge.result" name="{{input.d}}" type="radio" value="{{ $eval(lifeExpectancy.age) - 1 }}" ></td>
-                <td><label for="{{input.d}}">{{input.d}}</label></td>
-            </tr>
-            <tr>
-                <td><input ng-model="genderAge.result" name="{{input.e}}" type="radio" value="{{ $eval(lifeExpectancy.age) - 1 }}" ></td>
-                <td><label for="{{input.e}}">{{input.e}}</label></td>
-            </tr>
-            <tr>
-                <td><input ng-model="genderAge.result" name="{{input.f}}" type="radio" value="{{ $eval(lifeExpectancy.age) - 1 }}" ></td>
-                <td><label for="{{input.f}}">{{input.f}}</label></td>
+                <td><input ng-model="health.result" name="exercise" type="radio" value="{{ $eval(health.rate) + 2 }}" ></td>
+                <td><label for="exercise">{{input.c}}</label></td>
             </tr>
         </tbody>
     </table>

@@ -1,6 +1,3 @@
-
-<h1 id="age-result">{{ genderAge.result }}</h1>
-
 <div><h2 ng-repeat="input in questions">{{input.q3}}</h2></div>
 
 <form class="surveyForm">
