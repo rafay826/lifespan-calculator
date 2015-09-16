@@ -1,6 +1,6 @@
 
 <div id="signup-form">
-<div id="form-views" ui-view></div>
+<div onload="inputClick()" id="form-views" ui-view></div>
 </div>
 
 <!--<pre>{{ valueData }}</pre>-->

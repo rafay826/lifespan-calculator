@@ -21,7 +21,15 @@
         <!--------FONT SCRIPTS---------->
 <!--        <script src="https://use.typekit.net/jtg2mvx.js"></script>-->
 <!--        <script>try{Typekit.load({ async: true });}catch(e){}</script>-->
-
+        
+        <script>
+    
+    function inputClick(){
+    document.getElementsByTagName("INPUT")[0].setAttribute("id", "showBttn");
+    }
+    
+</script>
+        
     </head>
     
     <body>
