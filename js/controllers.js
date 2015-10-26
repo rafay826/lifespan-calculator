@@ -1,5 +1,5 @@
 surveyApp.controller('questionController', ['$scope', '$http', function ( $scope, $http ) {
-    $http.get("http://localhost:8888/lifespan-calculator/model.json")
+    $http.get("http://yodas.brain/projects/lifespan-calculator/model.json")
          .success( function(data){ 
         $scope.questions = data.questions;
         $scope.answers = data.answers;
